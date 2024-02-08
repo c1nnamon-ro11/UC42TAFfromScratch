@@ -1,5 +1,6 @@
 package com.selenium.testcases;
 
+import com.selenium.testcases.BaseTest.BaseTest;
 import org.testng.annotations.Test;
 
 import io.qameta.allure.Step;
@@ -21,6 +22,6 @@ public class Test2 extends BaseTest {
 	  Logs.Info("Open chatlink page");
 	  
 	  // Confused which popup has to be verified (or it even not appears)
-	  action.JustWait(10000);	
+	  action.JustWait(10000);
   }
 }

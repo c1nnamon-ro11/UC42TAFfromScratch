@@ -2,11 +2,11 @@ package com.selenium.pageobjects;
 
 import org.openqa.selenium.By;
 
-public interface BingPageLocators {		
-	public By searchField = By.id("sb_form_q");
-	public By SearchIcon = By.cssSelector("#search_icon > svg");
-	public By ChatLinkIcon = By.cssSelector("#codex > a");
-	public By HamburgerMenu = By.id("id_sc");
-	public By HamburgerMenuSettings = By.id("hbsettings");
-	public By MenuSettingsMore = By.xpath("//div[text()='Інші']/../..");
+interface BingPageLocators {
+	By searchField = By.id("sb_form_q");
+	By SearchIcon = By.cssSelector("#search_icon > svg");
+	By ChatLinkIcon = By.cssSelector("#codex > a");
+	By HamburgerMenu = By.id("id_sc");
+	By HamburgerMenuSettings = By.id("hbsettings");
+	By MenuSettingsMore = By.xpath("//div[text()='Інші']/../..");
 }

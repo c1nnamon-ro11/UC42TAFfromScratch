@@ -1,1 +1,7 @@
 /target/
+/allure-results/
+.idea
+*.iws
+*.iml
+*.ipr
+

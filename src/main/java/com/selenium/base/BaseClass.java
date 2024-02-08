@@ -6,6 +6,8 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
+import java.time.Duration;
+
 public class BaseClass {
 
 	public static ThreadLocal<RemoteWebDriver> driver = new ThreadLocal<>();
@@ -21,8 +23,9 @@ public class BaseClass {
 	
 	public void SetUpApplication() {
 		// SetUp some driver settings
-		GetDriver().manage().deleteAllCookies();
-		GetDriver().manage().window().maximize();	
+        GetDriver().manage().deleteAllCookies();
+		GetDriver().manage().window().maximize();
+		GetDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 	}
 	
 	public void QuitApplication() {

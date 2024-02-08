@@ -1,5 +1,6 @@
 package com.selenium.testcases;
 
+import com.selenium.testcases.BaseTest.BaseTest;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
