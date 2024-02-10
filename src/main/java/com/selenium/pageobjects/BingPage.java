@@ -18,7 +18,6 @@ public class BingPage {
 	}
 	
 	public void ClickOnHamburgerMenu() {
-		
 		action.Click(BingPageLocators.HamburgerMenu);
 	}
 	
