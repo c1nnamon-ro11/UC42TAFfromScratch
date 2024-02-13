@@ -9,7 +9,9 @@ import com.selenium.base.BaseClass;
 import com.selenium.pageobjects.BingPage;
 import com.selenium.pageobjects.SearchResultPage;
 import com.selenium.pageobjects.AdobeConverterPage;
+import org.testng.annotations.Listeners;
 
+@Listeners(com.selenium.base.TestListenerClass.class)
 // Base test which will be extended by every new test class
 public class BaseTest extends BaseClass {
 	// Adding all pageObjects, so every class which extends current will have possibility to use methods from PO

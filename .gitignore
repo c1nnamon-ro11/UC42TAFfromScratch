@@ -1,5 +1,6 @@
 /target/
 /allure-results/
+/test-output/FailedTestScreenshots/
 .idea
 *.iws
 *.iml
