@@ -49,7 +49,7 @@ public class BaseClass {
 	public void CaptureScreenshot(String testMethodName){
 		// Calculate path for future screenshot
 		Date currentDate = new Date();
-		SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-mm-dd_hh-mm-ss");
+		SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd_hh-mm-ss");
 		String timeStamp = dateFormat.format(currentDate);
 		String workingDirectory = System.getProperty("user.dir");
 
