@@ -23,13 +23,13 @@ public class BaseTest extends BaseClass {
 	
 	// Setup webDriver
 	@BeforeClass
-	public void Setup() {
+	public void DefaultSetup() {
 		SetUpApplication();
 	}
 	
 	// Quit from webDriver
 	@AfterClass
-	public void TearDown() {
+	public void DefaultTearDown() {
 		QuitApplication();
 	}
 }
